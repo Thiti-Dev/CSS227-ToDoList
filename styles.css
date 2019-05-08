@@ -1,0 +1,132 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #dfdfdf;
+}
+
+.container{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+    height: 100%;
+    margin-top: 350px;
+}
+
+
+input{
+    padding: 4px 15px 4px 5px;
+    margin-right: 10px;
+}
+
+#button{
+    display: inline-block;
+    background-color:#343D46    ;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding: 5px 15px;
+}
+
+#button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;color:#000;
+}
+
+ul li:nth-child(even){
+    background: #dfdfdf;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+li:hover{
+  cursor: pointer;
+ }
+
+ .header-self{
+     background: #9EBDC1;
+     height: 45px;
+     margin-bottom: 20px;
+ }
+
+
+ h2{
+     text-align: center;
+     position: relative;
+     top: 50%;
+     transform: perspective(1px) translateY(-50%);
+ }
+
+.info-show {
+
+}
+
+.info-show #yet-done-list{
+    margin-left: 80px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+
+/* Animate background *//* Animate background *//* Animate background *//* Animate background *//* Animate background */
+
+
+ body{
+    background: linear-gradient(270deg, #955072, #641bda, #1fb3b8, #ca3f1c);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+/* Animate background *//* Animate background *//* Animate background *//* Animate background *//* Animate background */

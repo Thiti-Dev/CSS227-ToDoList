@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <!-- ทำให้รองรับ ภาษาไทย -->
+        <title>To-do-list</title>
+        <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+            <div class="container">
+                <div class="header-self">
+                    <h2>My to-do-list</h2>
+                </div>
+               
+                <input type="text" name="ListItem" placeholder="สิ่งที่จะทำ"/>
+            
+                <div id="button">Add task</div>
+                <br/>
+                <ul>
+                    <li><image class="image-inside" src="https://vignette.wikia.nocookie.net/coasterpedia/images/f/ff/Bin.png/revision/latest?cb=20130123164154"
+                            width="20" height="20"> : นั่งเล่น</li>
+                    <li>
+                        <image class="image-inside" src="https://vignette.wikia.nocookie.net/coasterpedia/images/f/ff/Bin.png/revision/latest?cb=20130123164154"
+                            width="20" height="20"> : กินข้าว
+                    </li>
+                    <li>
+                        <image class="image-inside" src="https://vignette.wikia.nocookie.net/coasterpedia/images/f/ff/Bin.png/revision/latest?cb=20130123164154"
+                            width="20" height="20"> : ให้อาหารหมา
+                    </li>
+                    <li>
+                        <image class="image-inside" src="https://vignette.wikia.nocookie.net/coasterpedia/images/f/ff/Bin.png/revision/latest?cb=20130123164154"
+                            width="20" height="20"> : ให้อาหารแมว
+                    </li>
+                    <li>
+                        <image class="image-inside" src="https://vignette.wikia.nocookie.net/coasterpedia/images/f/ff/Bin.png/revision/latest?cb=20130123164154"
+                            width="20" height="20"> : เล่นเกม
+                    </li>
+                    <!-- dynamic added -->
+                    
+                </ul>
+                <div class="info-show">
+                    <span id="done-list">ทำเสร็จแล้ว : 0</span>
+                    <span id="yet-done-list">รายการที่ยังไม่ได้ทำ : 0</span>
+                </div>
+                    <div class="footer">
+                        <p>Made by Thiti Mahawannakit 60090500410 , Thank for Visiting , And feel free to leak into my code</p>
+                    </div>
+
+            </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
